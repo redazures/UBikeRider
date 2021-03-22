@@ -7,14 +7,14 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {View, SafeAreaView, StyleSheet, Text} from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <View>
       <HomeScreen />
-    </SafeAreaView>
+    </View>
   );
 };
 
