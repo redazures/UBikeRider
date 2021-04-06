@@ -8,6 +8,7 @@ export default HomeSearch = props => {
         <Text style={styles.inputText}>Where to</Text>
       </View>
       <Text>This is my search</Text>
+      <Text>This is my search</Text>
     </View>
   );
 };
