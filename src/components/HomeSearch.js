@@ -23,6 +23,18 @@ export default HomeSearch = props => {
 };
 
 const styles = StyleSheet.create({
-  container: {},
+  inputBox: {
+    backgroundColor:'grey',
+    margin:10,
+    flexDirection:'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  inputText:{
+
+  },
+  timeContainer:{
+
+  },
 });
 // this is a new comment 
