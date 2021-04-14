@@ -16,25 +16,31 @@ export default HomeSearch = props => {
           <MaterialIcons name={'keyboard-arrow-down'} size ={16} color={colors.dark}/>
         </View>
       </View>
-      <Text>This is my search</Text>
-      <Text>This is my search</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   inputBox: {
-    backgroundColor:'grey',
+    backgroundColor:colors.medium,
     margin:10,
     flexDirection:'row',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    padding: 10,
   },
   inputText:{
-
+    fontSize:20,
+    fontWeight:'500',
+    color:colors.white,
   },
   timeContainer:{
-
-  },
+    flexDirection:'row',
+    width:100,
+    padding:10,
+    justifyContent: 'space-between',
+    backgroundColor:colors.white,
+    borderRadius:10,
+    },
 });
 // this is a new comment 
